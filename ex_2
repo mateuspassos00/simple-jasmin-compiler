@@ -1,0 +1,25 @@
+int myFunc(int a, int b) 
+{
+    int c;
+
+    if(a > b) {
+        c = a * a;
+    }
+
+    else {
+        c = b * b;
+    }
+
+    return c + 1;
+}
+
+{
+    int a, b;
+
+    a = 2;
+    b = 3;
+
+    print(myFunc(a, b));
+
+    return;
+}
